@@ -1,4 +1,4 @@
-###Example, using curl:
+##Example, using curl:
 
 curl http://localhost:3000/oauth/token \
   -d "grant_type=client_credentials" \
@@ -12,7 +12,7 @@ If all goes as planned, you should receive a response like this:
 	"expires_in": 3600
 }
 
-###Using the token
+##Using the token
 
 Headers
 Authorization: "Bearer " + access_token
